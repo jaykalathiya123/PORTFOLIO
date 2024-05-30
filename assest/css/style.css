@@ -1,0 +1,181 @@
+:root {
+    --font: 'Jost';
+    --font2: 'Caveat';
+    --pra: #29a587;
+
+}
+.text-primary {
+    color: #29a587;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #29a587;
+    color: black;
+}
+
+.nav-pills .nav-link {
+    color: black;
+
+}
+
+.pt {
+    padding-top: 150px ;
+}
+
+.pb {
+    padding-bottom: 150px;
+}
+.sec ,.sec2,.sec3,.sec4,.sec5,.sec6{
+    position: relative;
+}
+.sec3{
+    margin: 100px;
+}
+.box-2{
+    position: absolute;
+    right: 10%;
+}
+.box-1,.mar{
+    position: absolute;
+    left: 10%;
+    top: -10px;
+}
+.mar{
+    top: 20px;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: .5rem;
+    padding-bottom: .5rem; */
+}
+
+body {
+    font-family: var(--font);
+}
+
+ul,
+li {
+    list-style-type: none;
+    font-family: var(--font);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.offcanvas-body ul li {
+    font-family: var(--font);
+    font-weight: 500;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+.petan{
+    position: relative;
+}
+.line,.line2{
+    position: relative;
+    height: 600px;
+    width: 2px;
+    background-color: black;
+}
+.line2{
+    top: 200px;
+    height: 1100px;
+}
+.line::before{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: 0;
+    right: -15px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgba(0, 0, 0, .2);
+    background-color: white;
+    border: 2px solid black;
+}
+.imgage{
+    position: absolute;
+    bottom: -120px;
+    right: -30px;
+}
+.imgage-2{
+    position: absolute;
+    bottom: -120px;
+    right: -30px;
+}
+.m{
+    margin: 100px 0;
+}
+.line::after{
+    content: '';
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: -15px;
+    border-radius: 50%;
+    box-shadow: 5px 5px rgba(0, 0, 0, .2);
+    background-color: white;
+    border: 2px solid black;
+
+}
+.girl {
+    position: relative;
+    height: 650px;
+    width: 650px;
+    z-index: 9999;
+    background-color: #29a587;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.girlimg {
+    position: absolute;
+    top: -98px;
+    z-index: 99;
+    object-fit: cover;
+    border-radius: 380px;
+    -webkit-border-radius: 380px;
+}
+
+.web-img {
+    height: 200px;
+    width: 350px;
+    transition: all 0.5s ease-in-out;
+}
+.praysh svg{
+    margin-right: 10px;
+}
+.praysh ul li{
+    margin:15px 0;
+}
+
+.web-img:hover {
+    transform: scale(1.1);
+}
+.card-body{
+    position: relative;
+
+}
+.in-worke li{
+ margin: 20px 0;
+}
+.d-line{
+    width: 50px;
+    height: 3px;
+    background-color: black;
+}
+.inside-img{
+    position: absolute;
+    bottom: -32px;
+    right:-40px;
+    /* z-index: 99; */
+}
